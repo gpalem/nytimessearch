@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://i.imgur.com/sB8mnEz.gif" title="source: imgur.com" />
+<a href="http://imgur.com/B8njcjh"><img src="http://i.imgur.com/B8njcjh.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
