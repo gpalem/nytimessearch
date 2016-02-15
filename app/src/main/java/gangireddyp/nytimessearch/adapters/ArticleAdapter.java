@@ -3,7 +3,6 @@ package gangireddyp.nytimessearch.adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -77,10 +76,10 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         ImageView thumbNailView = viewHolder.ivThumbNail;
         TextView titleView = viewHolder.tvTitle;
 
-        Log.i(TAG, "position " + position + " " + article.getFormattedHeadline());
+        //Log.i(TAG, "position " + position + " " + article.getFormattedHeadline());
         thumbNailView.setImageResource(0);
         String thumbNail = article.getRandomThumbNail();
-        Log.i(TAG, thumbNail);
+        //Log.i(TAG, thumbNail);
         if (!thumbNail.equals("")) {
             //Glide.with(context).load(thumbNail).placeholder(R.drawable.ic_loading).error(R.drawable.ic_no_image).into(thumbNailView);
             Picasso.with(context).load(thumbNail).fit().centerInside().placeholder(R.drawable.ic_loading).error(R.drawable.ic_no_image).into(thumbNailView);

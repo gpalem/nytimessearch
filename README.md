@@ -40,13 +40,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="http://i.imgur.com/sB8mnEz.gif" title="source: imgur.com" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Open Bugs:
+- Java arrayoutofbounds exception at times with staggeredgridlayout.
+- Scroll back has issue of populating the same item again while scrolling slowly.
+
 
 ## Open-source libraries used
 
